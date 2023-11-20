@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ระบบจัดการหอพัก</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Reset some default styles */
+        body, h1, h2, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Body styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header styling */
+        header {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            padding: 1em 0;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+
+        nav ul {
+            list-style: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #ecf0f1;
+            text-decoration: none;
+        }
+
+        /* Main content styling */
+        section {
+            padding: 20px;
+            background-color: #fff;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: #34495e;
+            color: #ecf0f1;
+            padding: 1em 0;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>ระบบจัดการหอพัก</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">หน้าหลัก</a></li>
+                <li><a href="#rooms">ห้องพัก</a></li>
+                <li><a href="#tenants">ผู้เช่า</a></li>
+                <li><a href="#payments">การชำระเงิน</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>ยินดีต้อนรับสู่ระบบจัดการหอพัก</h2>
+        <p>ที่นี่คุณสามารถจัดการหอพักของคุณได้</p>
+    </section>
+
+    <section id="rooms">
+        <h2>ห้องพัก</h2>
+        <p>ที่นี่คุณสามารถจัดการหอพักของคุณได้</p>
+    </section>
+
+    <section id="tenants">
+        <h2>ผู้เช่า</h2>
+        <p>ที่นี่คุณสามารถจัดการผู้เช่าของคุณได้</p>
+    </section>
+
+    <section id="payments">
+        <h2>การชำระเงิน</h2>
+        <p>ที่นี่คุณสามารถจัดการการชำระเงินของคุณได้</p>
+    </section>
+
+    <footer>
+        <p>สงวนลิขสิทธิ์ &copy; 2023 ระบบจัดการหอพัก</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
